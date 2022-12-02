@@ -97,9 +97,10 @@
 
 .illustration-title {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 900;
     color: #1f2937;
-    margin-top: 32px;
+    margin-top: 64px;
+    margin-bottom: 32px;
 }
 
 .illustration-images {
@@ -142,4 +143,35 @@
     font-size: 24px;
     font-style: normal;
     align-self: flex-end;
+}
+
+.sign-up-section {
+    padding: 8vh 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-card {
+    background-color: #3882f6;
+    width: 100%;
+    padding: 5vh 7vw;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-text {
+    color: #f9faf8;
+}
+
+.btn-2 {
+    padding: 8px 40px;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
 }
